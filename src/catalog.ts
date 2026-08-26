@@ -454,6 +454,34 @@ export const MODELS: FactoryModel[] = [
     "thinking": "none",
     "betaFlags": []
   },
+    {
+    "id": "deepseek-v4-flash-0731",
+    "name": "DeepSeek V4 Flash 0731 (Droid Core)",
+    "api": "openai-completions",
+    "provider": "fireworks",
+    "providers": [
+      "fireworks",
+      "baseten"
+    ],
+    "contextWindow": 1040000,
+    "maxTokens": 65536,
+    "reasoning": true,
+    "defaultEffort": "high",
+    "thinkingLevelMap": {
+      "minimal": "low",
+      "low": "low",
+      "medium": "high",
+      "high": "high",
+      "max": "max"
+    },
+    "input": [
+      "text"
+    ],
+    "tokenMultiplier": 0.7,
+    "billingPool": "core",
+    "thinking": "none",
+    "betaFlags": []
+  },
   {
     "id": "gemini-2.5-flash",
     "name": "Gemini 2.5 Flash",

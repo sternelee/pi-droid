@@ -6,7 +6,7 @@ export const PROVIDER_ID = "droid";
 const API_HOST = process.env.FACTORY_API_BASE_URL ?? "https://api.factory.ai";
 
 /** Sent as X-Client-Version; Factory rejects requests that omit it. */
-const CLIENT_VERSION = process.env.FACTORY_CLIENT_VERSION ?? "0.181.0";
+const CLIENT_VERSION = process.env.FACTORY_CLIENT_VERSION ?? "0.202.0";
 
 /**
  * Factory's LLM proxy only serves requests whose system prompt *starts with*
